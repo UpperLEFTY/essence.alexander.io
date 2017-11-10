@@ -1,4 +1,4 @@
-<span id="a">essence@alexander</span>:<span id="b">~</span><span id="c">essence$</span> essencealexander.txt<br/><br/>
+<span id="a">essence@alexander Last login: Nov 10 22:59:38 2017 from: 82-76-119-95.rdsnet.ro</span>:<span id="b">~</span><span id="c">essence$</span> essencealexander.txt<br/><br/>
 Hi, I'm Essence Alexander.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I'm a self- taught web developer specialising in Front End Development. I'm a coffee connoisseur, and a avid vinyl collector. I thrive on designing creative workspaces.My passion is to use technology based solutions, to help solve real world challenges.
 Languages and Frameworks: HTML5, CSS3, Javascript, jQuery, Bootstrap3, Angular.js, Node.js, PHP, Meteor.js, vanilla.js and Ruby on Rails. Tools: Git, Responsive Web Design, Interactive design.</p><!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
 <p>Feel free to check out some of my work on my Github Profile <a href="https://github.com/UpperLEFTY">UpperLEFTY Github</a> and check out my Codepen Profile<a href="https://codepen.io/upperLEFTY/">Codepen</a>.</p><!- oqwipjefqwioefjwioqfjoiqwjfeioqwjefoi -->
