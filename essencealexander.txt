@@ -25,17 +25,17 @@ If you would like to get in touch with me, whether it be for tech support, a bus
 
               <!-- Block 4 (SHA-256 blockchain) -->
               <div class="one-block latest-block">
-                <p class="h4 text-center">Block #: 004</p>
-                <p><label>Data:</label></p>
+                <p class="h4 text-center">(SHA-256 blockchain)&nbspBlock #: 004</p>
+                <p><label>Data:</label>----(SHA-256 blockchain)----</p>
                 <div class="block-data">
                   <p>
                     <label>Title:</label><b>Front End Developer</b></p>
                   <p>
                     <label>Company:</label>Upwork</p>
                   <p>
-                    <label>Stack:</label>HTML5, CSS3, Javascript, PHP7, AWS, Bootstrap 3, Bootstrap4</p>
+                    <label>Stack:</label>HTML5, CSS3, Javascript, PHP7, AWS, Bootstrap 3, Bootstrap4, Node.js</p>
                   <p>
-                    <label>Time:</label>June 2017 - Present</p>
+                    <label>Time:</label>&nbspJune 2017 - Present</p>
                 </div>
                 <div>
                   <br>
@@ -51,7 +51,7 @@ If you would like to get in touch with me, whether it be for tech support, a bus
               <!-- Block 3 (SHA-256 blockchain) -->
               <div class="one-block">
                 <p class="h4 text-center">Block #: 003</p>
-                <p><label>Data:</label></p>
+                <p><label>Data:</label>----(SHA-256 blockchain)----</p>
                 <div class="block-data">
                   <p>
                     <label>Title:</label><b>Front End Developer</b></p>
@@ -77,7 +77,7 @@ If you would like to get in touch with me, whether it be for tech support, a bus
               <!-- Block 2 (SHA-256 blockchain) -->
               <div class="one-block">
                 <p class="h4 text-center">Block #: 002</p>
-                <p><label>Data:</label></p>
+                <p><label>Data:</label>----(SHA-256 blockchain)----</p>
                 <div class="block-data">
                   <p>
                     <label>Title:</label><b>Front End Developer</b></p>
@@ -102,7 +102,7 @@ If you would like to get in touch with me, whether it be for tech support, a bus
               <!-- Block 1 (SHA-256 blockchain) -->
               <div class="one-block">
                 <p class="h4 text-center">Block #: 001</p>
-                <p><label>Data:</label></p>
+                <p><label>Data:</label>----(SHA-256 blockchain)----</p>
                 <div class="block-data">
                   <p>
                     <label>Title:</label><b>Front End Developer</b></p>
