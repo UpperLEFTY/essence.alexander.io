@@ -53,290 +53,7 @@
 	#b {
 		color: #ff0096;
 	}
-	<style type="text/css">
-
-            /* customiables */
-
-            /* typography */
-            body, p, a, em, strong, b, h1, h2, h3, h4, h5, h6, code, pre, textarea, button, input {
-                font-family: {block:IfEnableGoogleFonts}{block:IfBodyFontName}{text:Body Font Name},{/block:IfBodyFontName}{/block:IfEnableGoogleFonts} {font:Body Font}
-            }
-            body, p, em, code, pre, textarea, button, input {
-                font-weight: {text:Body Text Font Weight}
-            }
-            body, p, h1, h2, h3, h4, h5, h6, code, pre, blockquote, .post-media.link h2 a, .title-link, .more_notes_link, a.pagi-previous, a.pagi-next, a.more_notes_link, a.perma-post-title, .perma-post-asker h2 a, .perma-post-answer h2 a {
-                color: {color:Body Text Color}
-            }
-            .post-entry .date:after, .post-divider {
-                background-color: {color:Body Text Color}
-            }
-            a, .post-colophon p, .post-colophon a, .creation a, .permalink-content-area span a:hover {
-                color: {color:Linked Text Color}
-            }
-            a.title-link, a.perma-post-title, .post-asker h2, .post-asker h2 a, .post-answer h2, .post-answer h2 a, .perma-post-asker h2, .perma-post-asker h2 a, .perma-post-answer h2, .perma-post-answer h2 a {
-                font-family: {block:IfEnableGoogleFonts}{block:IfPostHeadingFontName}{text:Post Heading Font Name},{/block:IfPostHeadingFontName}{/block:IfEnableGoogleFonts} {font:Body Font};
-            }
-            h1, h2, h3, h4, h5, h6 {
-                font-weight: {text:Post Heading Font Weight}
-            }
-            .post-author p, .post-author p a, .post-note-count p a, .colophon-wrap p a, .colophon-wrap p {
-                color: {color:Post Meta Text Color};
-            }
-            .post-tags p a, .perma-side-tags a {
-                color: {color:Tag Text Color};
-                background-color: {color:Tag Background Color};
-            }
-            
-            /* background */
-            #masthead, .off-canvas-wrap, .content-area, .blog-footer, .instagram-wrapper, #offCanvas, .off-canvas-bg, .bg-tint {
-                background-color: {color:Background Color}
-            }
-            {block:ShowHeaderImage} 
-            .bg-cover {
-                opacity: {select:Tint Strength}
-            }
-            .bg-tint {
-                background-color: {color:Background Cover Tint Color}!important;
-            }
-            {/block:ShowHeaderImage} 
-            
-            /* top bar */
-            .show-bg,
-            .top-bar .submenu,
-            .top-bar, 
-            .top-bar ul{
-                background: {color:Top Bar Background Color}!important
-            }
-            .lines, .lines:before, .lines:after, .left-off-canvas-toggle .btn-slide {
-                background: {color:Top Bar Text Color}
-            }
-            .top.menu-nav li a,
-            .search-box a {
-                color: {color:Top Bar Text Color}
-            }
-            .is-accordion-submenu-parent>a:after,
-            .dropdown.menu>li.is-dropdown-submenu-parent>a:after {
-                border-color: {color:Top Bar Text Color} transparent transparent
-            }
-            
-            /* header */
-            .mast-title, .blog-footer h2 {
-                font-family: {block:IfEnableGoogleFonts}{block:IfTitleFontName}{text:Title Font Name},{/block:IfTitleFontName}{/block:IfEnableGoogleFonts} {TitleFont};
-                font-weight: {text:Title Font Weight};
-                {block:IfEnableTitleLetterSpacing}
-                letter-spacing: .3rem
-                {/block:IfEnableTitleLetterSpacing}
-            }
-            .mast-title {
-                {color:Blog Title Color}
-            }
-            .mast-description, .header-social li a, #masthead p {
-                color: {color:Sidebar Text Color}
-            }
-            .header-avatar img,
-            .header-social li {
-                border-color: {color:Sidebar Text Color}
-            }
-            .header-avatar img {
-                background-color: {color:Sidebar Text Color}
-            }
-            #masthead .sidebar-title, #masthead .sidebar-title:before {
-                background-color: {color:Sidebar Title Background Color}
-            }
-            #masthead .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
-                border-color: {color:Sidebar Text Color} transparent transparent;
-            }
-            .sidebar-title, #masthead .sidebar-title p, #masthead .sidebar-title a {
-                color: {color:Sidebar Title Text Color}
-            }
-            .side-social li:hover a {
-                color: {color:Background Color}
-            }
-
-            
-            /* pre-loader */
-            #qLoverlay::after {
-                color: {color:Loading Screen Bar Color};
-                content: '{text:Pre Loader Text Message}';
-            }    
-            
-            /* posts */
-            .post .post-entry, .post-media, .post-share, .post-single, .perma-right-sidebar, .white-pad {
-                background-color: {color:Post Background Color};
-            }
-            .post.text .title-container h2 {
-                background: {color:Body Text Color};
-            }
-            .post.text .title-container h2 a {
-                color: {color:Post Background Color};
-            }
-            .post.chat .post-entry {
-                background-color: {color:Chat Post Background Color}
-            }
-            .post.chat .title-link, .post-chat p, .post-chat b, .single-post.chat .title-link, .post.chat .post-author p, .post.chat .post-author p a, .post.chat .post-note-count p a {
-                color: {color:Chat Post Text Color} 
-            }
-            .visit-link {
-                background-color: {color:Link Post Button Background Color};
-                border: 2px solid {color:Link Post Button Background Color}
-            }
-            .visit-link h5, .visit-link p {
-                color: {color:Link Post Button Text Color}
-            }
-            
-            /* permalink page posts */
-            a.pagi-previous:before, a.pagi-next:before, .more_notes_link:before {
-                background-color: {color:Single Post Page Accent Color};
-            }
-            /* permalink sidear title top and bottom borders */
-            h4.sidebar-section-title:after, h4.sidebar-section-title:before, .answer-divider {
-                background: -moz-linear-gradient(left, {color:Post Background Color} 5%, {color:Single Post Page Accent Color} 20%, {color:Single Post Page Accent Color} 80%, {color:Post Background Color} 95%);
-                background: -webkit-linear-gradient(left, {color:Post Background Color} 5%,{color:Single Post Page Accent Color} 20%,{color:Single Post Page Accent Color} 80%,{color:Post Background Color} 95%);
-                background: linear-gradient(to right, {color:Post Background Color} 5%,{color:Single Post Page Accent Color} 20%,{color:Single Post Page Accent Color} 80%,{color:Post Background Color} 95%);
-            }
-            /* permalink post/sidebar divider */
-            .perma-right-sidebar {
-                border-left: 2px solid {color:Single Post Page Accent Color};
-            }
-
-            /* index pagination */
-            #load-more a, .back-to-top {
-                color: {color:Load More Button Color}
-            }
-            #load-more a, .back-to-top {
-                background-color: {color:Load More Button Background Color};
-                padding: 10px 20px;
-            }
-            
-            /* sidebar */
-            #offCanvas .mast-title, #offCanvas p, #offCanvas .menu-items li a, .menu-follow, .menu-follow:focus, .menu-follow:hover,
-            #offCanvas .menu-items li a:focus, #offCanvas .menu-items li a:hover, .side-social li a, .menu-items li a, .menu-items li a:focus, .menu-items li a:hover {
-                color: {color:Sidebar Text Color};
-            }
-            .menu-follow .item-slider, .menu-items li a .item-slider, .menu-divider {
-                background-color: {color:Sidebar Text Color}
-            }
-            #offCanvas .is-accordion-submenu-parent>a:after, #offCanvas .dropdown.menu>li.is-dropdown-submenu-parent>a:after {
-                    border-color: {color:Sidebar Text Color} transparent transparent
-            }
-            .sidebar-title, .sidebar-title:before {
-                background-color: {color:Sidebar Title Background Color}
-            }
-
-            #offCanvas .sidebar-title p, #offCanvas .sidebar-title a {
-                color: {color:Sidebar Title Text Color}
-            }
-            .side-follow a {
-                color: {color:Sidebar Follow Text Color};
-                background-color: {color:Sidebar Follow Button Color};
-                border: 2px solid {color:Sidebar Follow Button Color}
-            }
-            .side-social li {
-                border: 1px solid {color:Sidebar Text Color}
-            }
-            
-            /* Footer */
-            .blog-footer * {
-                color: {color:Footer Text Color}
-            }
-            .footer-avatar img {
-                border-color: {color:Footer Text Color};
-                background-color: {color:Footer Text Color};
-            }
-            
-            {block:IfNotForceFullWidthPhotoPosts}
-            .photo-wrapper img {
-                width: auto
-            }
-            {/block:IfNotForceFullWidthPhotoPosts}
-            {block:IfForceFullWidthTextPostImages}
-            .post.text figure img {
-                width: 100%
-            }
-            {/block:IfForceFullWidthTextPostImages}
-            
-            /* min-width 641px, medium screens */
-            @media only screen and (min-width: 40.063em) { 
-                {block:Posts}{block:Text}{block:Date}
-                .single-post.text .entry-content {
-                    width: auto
-                }
-                {/block:Date}{/block:Text}{/block:Posts}
-            }
-            
-            /* min-width 1025px, large screens */
-            @media only screen and (min-width: 64.063em) { 
-                /* header */
-                .mast-title {
-                    font-size: {text:Title Font Size};
-                    line-height: calc({text:Title Font Size} + .4rem);
-                }
-                
-                /* buttons */
-                .visit-link a:hover h5, .visit-link a:hover p {
-                    color: {color:Link Post Button Background Color}
-                }
-                
-                .side-follow a:hover {
-                    color: {color:Sidebar Follow Button Color}
-                }
-                
-                /* social link hovers */
-                .footer-social li, .footer-social li a, .side-social li, .side-social li a {
-                    transition: all .25s ease-in-out
-                }
-                .side-social li:hover {
-                    background-color: {color:Sidebar Text Color}
-                }
-            }
-            
-            {block:SearchPage}
-            .top-bar {
-                background: {color:Top Bar Background Color}
-            }
-            {/block:SearchPage}
-            
-            {block:TagPage}
-            .top-bar {
-                background: {color:Top Bar Background Color}
-            }
-            {/block:TagPage}
-            
-            /* index page specific */
-            {block:IndexPage}{block:ShowHeaderImage} 
-            .bg-cover {
-                background-image: url("{HeaderImage}")
-            }
-            {/block:ShowHeaderImage}{/block:IndexPage}
-            
-            /* permalink page */
-            {block:PermalinkPage}
-            .side-bar {
-                padding-top: 10%
-            }
-            .top-bar {
-                background: {color:Top Bar Background Color}
-            }
-            .bg-cover {
-                background-color: {color:Permalink Page Background Color};
-            }
-            {block:ShowHeaderImage}
-            .blog-footer, .main-perma, .instagram-wrapper {
-                z-index: 2;
-                position: relative;
-            }
-            {/block:ShowHeaderImage}
-            {/block:PermalinkPage}
-            
-            {CustomCSS}
-            
-            </style>
-
-            {block:IfGoogleAnalyticsCode}
-            {text:Google Analytics Code}
-            {/block:IfGoogleAnalyticsCode}
-        
-</style>
+	
 </head>
 
 <body>
@@ -628,6 +345,226 @@ $(document).ready(function() {
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+	
+            // JS contents
+            // -----------
+
+            // # Foundation declaration
+            // # Initialize isotope
+            // # Resize FB Widget
+            // # Scroll Reveal
+            // # Parallax - Stellar
+            // # Initialize Smooth Scroll - Tween
+            // # Instagram Feed           
+            // # Pre loader
+            // # Initalize Disqus Comments
+            // # Infinite Scroll
+            // # Responsive photoset
+
+            $(document).foundation(); // # Foundation declaration
+
+            var $container = $('.content-area');
+
+            // # Initialize isotope            
+            $container.isotope({
+                itemSelector: '.post',
+                masonry: {
+                    columnWidth: '.post',
+                    gutter: '.gutter-sizer'
+                }
+            });
+
+            // # Resize FB Widget
+            function resizeFbWidget(parentContainer) {
+                var container_width = $(parentContainer + ' #fb_container').width();
+                var fb_widget_code = '<div class="fb-page" data-href="{text:Facebook Feed Page URL}/" data-tabs="timeline, messages, events" data-width="'+ container_width +'" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="{text:Facebook Feed Page URL}/"><a href="{text:Facebook Feed Page URL}/">{text:Facebook Feed Title}</a></blockquote></div></div>';
+                
+                $(parentContainer + ' #fb_container').html(fb_widget_code);
+                FB.XFBML.parse( );
+            }
+
+            function addResizeSensors() {
+                // detect elements that resize and re-layout isotope
+                new ResizeSensor(jQuery('.post'), function() {
+                    $container.isotope('layout');
+                });
+                
+                // detect elements that resize and re-layout isotope
+                new ResizeSensor(jQuery('.content-area'), function() {
+                    $container.isotope('layout');
+                    resizeFbWidget('#offCanvas');
+                    resizeFbWidget('#masthead');
+                });
+            }
+
+            addResizeSensors();            
+
+            {block:IfNotDisableScrollReveal}
+            // # Scroll Reveal
+            var config = {
+                viewFactor : 0.15,
+                duration   : 800,
+                distance   : "0px",
+                scale      : 0,
+                reset       : true,
+                viewOffset: { top: 0 }
+            };
+            window.sr = ScrollReveal( config );
+            sr.reveal('.ani-div');
+            {/block:IfNotDisableScrollReveal}
+  
+            enquire.register("screen and (min-width: 64.063em)", {
+                match : function() {
+                    {block:IndexPage}
+                        // # Parallax - Stellar
+                        $(window).stellar({
+                            horizontalScrolling: false,
+                            verticalScrolling: true,
+                            responsive: true,
+                            parallaxElements: true,
+                            verticalOffset: 40
+                        });
+                    {/block:IndexPage}
+                    
+                    {block:IfNotDisableSmoothScroll}
+                    // # Initialize Smooth Scroll - Tween
+                    var $window = $(window);
+                    var scrollTime = 0.7;
+                    var scrollDistance = 300;
+    
+                    $window.on("mousewheel DOMMouseScroll", function(event){
+    
+                        event.preventDefault(); 
+    
+                        var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
+                        var scrollTop = $window.scrollTop();
+                        var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+    
+                        TweenMax.to($window, scrollTime, {
+                            scrollTo : { y: finalScroll, autoKill:true },
+                            ease: Power1.easeOut,
+                            overwrite: 5                            
+                        });
+                    });
+                    {/block:IfNotDisableSmoothScroll}
+                }
+            });
+                  
+
+            // # Instagram Feed
+            {block:IfInstagramID}
+            $("#instagram-feed").jqinstapics({
+                "user_id": "{text:Instagram ID}",
+                "access_token": "{text:Instagram Token}",
+                "count": {text:Instagram Feed Count}
+            });
+            {/block:IfInstagramID} 
+            
+            (function () {                
+                // # Pre loader
+                window.addEventListener('DOMContentLoaded', function() {
+                    new QueryLoader2(document.querySelector("body"), {
+                        barColor: "{color:Loading Screen Bar Color}",
+                        backgroundColor: "{color:Loading Screen Background Color}",
+                        percentage: false,
+                        barHeight: 2,
+                        minimumTime: 200,
+                        fadeOutTime: 1000
+                    });
+                });  
+            })();
+
+            // # Initalize Disqus Comments
+            function runDisqus() {
+                var disqus_shortname = '{text:Disqus Shortname}'; 
+                var disqus_url = '{Permalink}';
+                var url_arr = disqus_url.split('/');
+                var disqus_identifier = url_arr[4];
+
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+
+                console.log('{BlogURL}');
+            }
+
+            $(document).ready(function(){
+                {block:IfDisqusShortname}
+                runDisqus(); // Call Disqus comments
+                {/block:IfDisqusShortname}
+
+                // Facebook Feed Widget
+                setTimeout(function() {
+                    resizeFbWidget('#offCanvas');
+                    resizeFbWidget('#masthead');
+                }, 100);
+            });
+
+            // # Infinite Scroll
+            var $tilegrid = $('.content-area');
+            var $initialNumberOfPosts = $('.post').length; // Get number of posts
+            $tilegrid.infinitescroll({
+                navSelector: "#load-more",
+                nextSelector: "#load-more a",
+                itemSelector: ".post",
+                {block:IfNotInfiniteScroll}
+                behavior: 'twitter',
+                {/block:IfNotInfiniteScroll}
+                loading: {
+                    finishedMsg: '{lang:No more posts}',
+                    img: '//static.tumblr.com/cmghtlm/Rz0noy7fh/theee-dots-black.svg',
+                    msgText: ''
+                }
+            },
+            function (newElements) {
+                var $newElemsIDs = $(newElements).map(function () { return this.id; }).get();
+                                    
+                Tumblr.LikeButton.get_status_by_post_ids($newElemsIDs); // get like status for posts
+                
+                var $newElems = $( newElements ).css({ opacity: 0 });
+
+                addResizeSensors();
+
+                $newElems.imagesLoaded(function(){
+                    $newElems.animate({ opacity: 1 });
+                    $container.isotope( 'appended', $newElems, true );
+                    resizePhotosets(); // responsive photosets
+                    {block:IfNotDisableScrollReveal}sr.sync();{/block:IfNotDisableScrollReveal}
+                    // magnific Popup Lightbox
+                    $('.lightbox').each(function() {
+                         $(this).magnificPopup({ 
+                            delegate: 'a',
+                            type:'image', 
+                            gallery: {
+                                enabled: true,
+                                navigateByImgClick: true,
+                            }
+                        });
+                    });
+                });
+                
+                $(document).foundation(); // foundation reflow
+                // $(document).foundation('reveal', 'reflow'); // foundation reflow
+            });
+
+            // # Responsive photoset
+            var photosetBlock = document.body.querySelector('.html_photoset');
+
+            if (photosetBlock != null) {
+                function resizePhotosets(){
+                    var parentWidth = document.body.querySelector('.html_photoset').offsetWidth; 
+                    var photosets = document.body.querySelectorAll('iframe.photoset');
+                    for(var i = 0; i < photosets.length; ++i){
+                        var photoset = photosets[i];
+                        photoset.width = parentWidth;
+                    }   
+                }
+                window.onload = resizePhotosets;
+                window.onresize = resizePhotosets; 
+            }
+   
 
 
 </script>
