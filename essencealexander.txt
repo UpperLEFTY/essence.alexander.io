@@ -75,8 +75,7 @@ If you would like to get in touch with me, whether it be for tech support, a bus
                   <p class="truncate">
                     <small><label>Hash: </label>878d1ef78d76e1cd006b89f323de4dce4064fafe2c38d5c711fe83f5e04bb0b2</small>
                     <br>
-                    <small><label>Previous Hash: </label>
-                    532</small>
+                    <small><label>Previous Hash:</label>2ced301cea95102353465b5c96c2c313ca1ac39c593586fdbcf0692ed50e9532</small>
                   </p>
                 </div>
               </div>
@@ -101,7 +100,7 @@ If you would like to get in touch with me, whether it be for tech support, a bus
                   <p class="truncate">
                     <small><label>Hash: </label>1bf4db795332f322f1d9d125b975560c11ebdb084e79ec1261c74819505a0532</small>
                     <br>
-                    <small><label>Previous Hash: </label>0fdf18af6009579cf35fdc82d130e658bca9037705b3a87142a27daeff138d78</small>
+                    <small><label>Previous Hash:           	</label>0fdf18af6009579cf35fdc82d130e658bca9037705b3a87142a27daeff138d78</small>
                   </p>
                 </div>
               </div>
