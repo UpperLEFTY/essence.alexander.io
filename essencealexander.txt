@@ -23,9 +23,9 @@ If you would like to get in touch with me, whether it be for tech support, a bus
 		<span class="hideme">I'm a US citizen, Visa free entry to 28 European countries</span>
 </div>
 
-<div class='slider-navigation'>
+          <div class='slider-navigation'>
             <div class='nav-pointer draggable'>
-                1/3
+
             </div>
         </div>
     </header>
@@ -46,26 +46,15 @@ If you would like to get in touch with me, whether it be for tech support, a bus
 
                  <div class="about-me">
                 <div class="text-center">
-                <img src="img/about-me.png" height="100" width="550">
-                <br><br>
                 </div>
                 <div class="clearfix"></div>
-                <div class="about-me__content" id="terminal-start">
-
-  <pre>
-         __|  __|_  )
-         _|  (     /   Amazon Linux AMI
-        ___|\___|___|
-
-  Amazon Linux version 2017.09 is available.
-  </pre>
-
+                <div class="about-me__content" id="terminal-start"</div>
 
 
       <div class="parallax-window-half" data-parallax="scroll"</div>
 
 
-                <div class="container text-center">
+                <div class="container text-center"</div>
 
 
               <!-- Block 4 (SHA-256 blockchain) -->
